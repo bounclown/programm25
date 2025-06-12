@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/dynamic_exe.dir/main.c.o -o dynamic_exe  -Wl,-rpath,/home/bounclown/prog2sem/lab6/build libMY_LOG.so 

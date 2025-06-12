@@ -1,0 +1,4 @@
+/home/bounclown/prog2sem/lab6/build_lists/CMakeFiles/lists_exe.dir
+/home/bounclown/prog2sem/lab6/build_lists/CMakeFiles/MY_LOG.dir
+/home/bounclown/prog2sem/lab6/build_lists/CMakeFiles/edit_cache.dir
+/home/bounclown/prog2sem/lab6/build_lists/CMakeFiles/rebuild_cache.dir

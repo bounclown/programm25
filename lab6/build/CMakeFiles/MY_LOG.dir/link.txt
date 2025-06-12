@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libMY_LOG.so -o libMY_LOG.so CMakeFiles/MY_LOG.dir/list.c.o CMakeFiles/MY_LOG.dir/moving.c.o 

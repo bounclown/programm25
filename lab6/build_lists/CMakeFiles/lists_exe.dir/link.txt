@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/lists_exe.dir/main.c.o -o lists_exe  -Wl,-rpath,/home/bounclown/prog2sem/lab6/build_lists libMY_LOG.so 
