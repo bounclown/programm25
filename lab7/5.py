@@ -8,11 +8,15 @@ data = {
     2500: {1: 58764, 2: 31302, 5: 15302, 10: 10947, 25: 10922, 50: 10522, 100: 10410},
 }
 
-colors = {1: 'blue', 2: 'red', 4: 'orange', 8: 'green'}
-for thread_count in [1, 2, 4, 8]:
+colors = {
+    1: 'blue', 2: 'red', 5: 'orange', 10: 'green',
+    25: 'purple', 50: 'brown', 100: 'pink'
+}
+
+for thread_count in data[500].keys():
     x = sorted(data.keys())
     y = [data[n][thread_count] for n in x]
-    plt.plot(x, y, label=f"{thread_count} поток(а)", color=colors[thread_count])
+    plt.plot(x, y, label=f"{thread_count} поток(ов)", color=colors.get(thread_count, None))
 
 plt.title("Зависимость времени перемножения матриц от N и числа потоков")
 plt.xlabel("Размер матрицы N")
